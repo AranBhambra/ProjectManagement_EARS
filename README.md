@@ -12,15 +12,6 @@ Application Tracking: Add, list, and update the status of employment application
 
 Faculty Search Management: Manage committee members, search positions, and search timeframes.
 
-📂 Project Structure
-
-EARS_Project_Aran/
-├── User.java                # Handles user-related details and operations
-├── FacultySearch.java       # Manages faculty search details and committee members
-├── Application.java         # Represents and tracks an employment application
-├── EARSManagementSystem.java # Core system for managing users, applications, and searches
-└── EARSMain.java            # Main entry point for system interaction and user interface
-
 📜 Usage
 
 Run the Project: Compile and run the EARSMain.java file to start the system.
