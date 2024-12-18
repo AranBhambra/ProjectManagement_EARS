@@ -1,8 +1,8 @@
-EARS Project (Employment Application Review System)
+#EARS Project (Employment Application Review System)
 
 The Employment Application Review System (EARS) is a Java-based system designed to streamline and manage the process of reviewing employment applications. The system allows administrators to manage users, applications, and faculty searches efficiently.
 
-🚀 Features
+##🚀 Features
 
 User Authentication: Secure login system with username and password.
 
@@ -12,7 +12,7 @@ Application Tracking: Add, list, and update the status of employment application
 
 Faculty Search Management: Manage committee members, search positions, and search timeframes.
 
-📜 Usage
+##📜 Usage
 
 Run the Project: Compile and run the EARSMain.java file to start the system.
 
@@ -26,9 +26,9 @@ Create Faculty Search: Start a new faculty search process.
 
 Manage Applications: Add, list, and update application statuses.
 
-💻 Code Overview
+##💻 Code Overview
 
-1️⃣ User.java
+###1️⃣ User.java
 
 Attributes: username, email, password
 
@@ -40,7 +40,7 @@ getEmail(), setEmail(): Get and update the user's email.
 
 changePassword(): Update the user's password.
 
-2️⃣ Application.java
+###2️⃣ Application.java
 
 Attributes: applicantName, status
 
@@ -52,7 +52,7 @@ updateStatus(): Update the application status.
 
 setStatusFromOptions(): Select from pre-defined status options.
 
-3️⃣ FacultySearch.java
+###3️⃣ FacultySearch.java
 
 Attributes: committeeChair, position, startDate, endDate, committeeMembers
 
@@ -62,7 +62,7 @@ addCommitteeMember(): Add new members to the committee.
 
 listCommitteeMembers(): Display the list of members in the committee.
 
-4️⃣ EARSManagementSystem.java
+###4️⃣ EARSManagementSystem.java
 
 Attributes: users, facultySearches, applications
 
@@ -74,7 +74,7 @@ Application Management: addApplication(), listApplications(), updateApplicationS
 
 Faculty Search Management: addFacultySearch(), createFacultySearch()
 
-📚 How to Run
+##📚 How to Run
 
 Clone this repository:
 
@@ -84,7 +84,7 @@ Open the project in your preferred Java IDE (like IntelliJ or Eclipse).
 
 Compile and run the EARSMain.java file.
 
-🛠️ System Workflow
+##🛠️ System Workflow
 
 Login: Users log in using their username and password.
 
@@ -94,7 +94,7 @@ Application Handling: Add new applications, view existing applications, and upda
 
 Faculty Search Management: Create new faculty searches, assign committee members, and track progress.
 
-⚙️ Pre-defined Status Options for Applications
+##⚙️ Pre-defined Status Options for Applications
 
 Submitted
 
@@ -108,7 +108,7 @@ Accepted
 
 Rejected
 
-🌐 Technologies Used
+##🌐 Technologies Used
 
 Java: Core programming language.
 
@@ -116,7 +116,7 @@ OOP: Object-Oriented Programming principles.
 
 Data Structures: Lists, Maps, and Collections for efficient data handling.
 
-📢 Future Enhancements
+##📢 Future Enhancements
 
 Add GUI: Replace the console-based UI with a graphical user interface.
 
@@ -124,6 +124,6 @@ Database Integration: Store user, application, and search data in a database.
 
 Advanced Authentication: Include password hashing and multi-factor authentication.
 
-🧑‍💻 Contributing
+##🧑‍💻 Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and make a pull request.
